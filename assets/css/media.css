@@ -1,0 +1,14 @@
+@media (max-width: 732px) {
+    [class*="col-"] {
+        width: 100%;
+    }
+    nav button {
+        visibility: initial;
+    }
+    nav ul {
+        display: none;
+    }
+    footer {
+        padding: 10%;
+    }
+}

@@ -1,0 +1,110 @@
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+section {
+  margin: 2% 0;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav {
+  background: #373c43;
+  cursor: default;
+}
+
+nav .col-4 {
+  text-align: right;
+}
+
+nav h3 {
+  margin-left: 4%;
+  color: white;
+  display: inline-block;
+}
+
+nav ul {
+  text-align: right;
+}
+
+nav ul li {
+  display: inline-block;
+  margin: 0 4%;
+  color: #cbcbcb;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+nav ul li:hover {
+  color: white;
+  transition: 0.3s;
+}
+
+nav button {
+  width: 30px;
+  padding: 3px;
+  background: #373c43;
+  border: 1px solid #cbcbcb;
+  border-radius: 3px;
+  outline: none;
+  float: right;
+  visibility: hidden;
+  margin-right: 3%;
+}
+
+nav button hr {
+  margin: 3px 1px;
+  border: none;
+  height: 1px;
+  background: #cbcbcb;
+}
+
+header {
+  width: 100%;
+  height: 400px;
+  background-image: url(../images/header.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center right;
+  background-color: #cbcbcb;
+}
+
+header .row, header .col-12 {
+  height: 400px;
+}
+
+header h1, header h3 {
+  position: relative;
+  width: 80%;
+  top: 30%;
+  left: 5%;
+}
+
+#cards img {
+  height: 200px;
+}
+
+.card {
+  border: 1px solid #cbcbcb;
+  border-radius: 5px;
+}
+
+.card ul {
+  padding: 5%;
+}
+
+#card-btn {
+  padding: 5%;
+  border-top: 1px solid #cbcbcb;
+}
+
+footer {
+  background: #373c43;
+  text-align: center;
+  color: white;
+  padding: 2%;
+}
