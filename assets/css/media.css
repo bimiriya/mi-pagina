@@ -1,14 +1,54 @@
+ @media (min-width: 1051px) and (max-width: 1100px) {
+     nav ul li {
+         margin: 0 3px;
+     }
+ }
+
+@media (min-width: 733px) and (max-width: 1050px) {
+    nav ul li {
+        margin: 0 3px;
+        font-size: 80%;
+    }
+    nav ul li:first-child {
+        margin-left: 0;
+    }
+}
+
 @media (max-width: 732px) {
     [class*="col-"] {
         width: 100%;
     }
+    nav {
+        position: fixed;
+        width: 100%;
+        z-index: 2;
+    }
+    nav h3 {
+        margin-left: 1%;
+        margin-top: 8px;
+    }
     nav button {
         visibility: initial;
+        z-index: 3;
+        float: right;
+        margin-right: -10%;
     }
     nav ul {
         display: none;
     }
+    header h1 {
+        font-size: 7vh;
+    }
+    .container {
+        padding: 0 5%;
+    }
+    .contact i {
+        font-size: 40px;
+    }
     footer {
         padding: 10%;
+    }
+    .float-btn {
+        display: none;
     }
 }
