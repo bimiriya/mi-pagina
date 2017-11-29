@@ -128,6 +128,11 @@ header h1 {
   cursor: pointer;
 }
 
+#description p span {
+  color: #b20000;
+  font-weight: 700;
+}
+
 #description .contact h2 {
   margin-bottom: 20px;
 }
