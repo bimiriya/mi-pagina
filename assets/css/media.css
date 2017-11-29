@@ -33,6 +33,9 @@
         float: right;
         margin-right: -10%;
     }
+    nav button hr {
+        margin: 6px 1px;
+    }
     nav ul {
         display: none;
     }
